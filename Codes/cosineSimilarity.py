@@ -2,7 +2,7 @@ import nltk, string
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-nltk.download('punkt') 
+nltk.download('punkt')
 
 
 stemmer = nltk.stem.porter.PorterStemmer()
@@ -27,8 +27,13 @@ def cosine_sim(text1, text2):
     return ((tfidf * tfidf.T).A)[0,1]
 
 
-
-
-print (cosine_sim('a little bird', 'a little bird'))
-print (cosine_sim('a little bird', 'a little bird chirps'))
-print (cosine_sim('a little bird', 'a big dog barks'))
+count = 0
+Title = open("./NewsTitle", "r")
+for lines in (Title):
+    count = count + 1
+    print(count,end = " ")
+    title_file = open("./NewsTitle", "r")
+    for eachline in (title_file):
+        print (eachline)
+        #print(lines)
+        print(cosine_sim(lines, eachline))

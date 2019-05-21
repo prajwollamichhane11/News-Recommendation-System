@@ -2,6 +2,8 @@ import scipy.spatial
 import math
 from collections import Counter
 
+x = 0
+y = 0
 def build_vector(iterable1, iterable2):
 	counter1 = Counter(iterable1)
 	counter2 = Counter(iterable2)
@@ -21,16 +23,17 @@ def cosim(v1, v2):
 		return 0
 
 file = open('topics.txt', 'r', encoding="UTF-8")
-print(file)
 for lines in file:
-	line = lines.split()
-	x = x + 1
-	nextFile = open('topics.txt', 'r', encoding="UTF-8")
-	for lines2 in nextFile:
-		line2 = lines2.split()
-		y = y + 1
-		v1, v2 = build_vector(line, line2)
-		print(cosim(v1, v2))
-
+        line = lines.split()
+        x = x + 1
+        nextFile = open('topics.txt', 'r', encoding="UTF-8")
+        for lines2 in nextFile:
+                line2 = lines2.split()
+                y = y + 1
+                v1, v2 = build_vector(line, line2)
+                similarity = cosim(v1, v2)
+                if similarity > 0.70:
+                        f = open("DisimilarTopics.txt","a+")
+                        f.write(lines)
 print(x)
 print(y)
