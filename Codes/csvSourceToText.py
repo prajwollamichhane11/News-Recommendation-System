@@ -1,5 +1,5 @@
-csv_file = 'NewsSource.csv'
-txt_file = 'News Source'
+csv_file = 'News.csv'
+txt_file = 'News'
 
 text_list = []
 
