@@ -9,6 +9,7 @@
   <a href="#"><li>Subarna Subedi</li></a>
 <br>
 <h>Special thanks to:</h>
+<br>
   <a href="https://gitlab.com/bhattaraishan271"><li>Shantanu Bhattarai</li></a>
 
 <br>
