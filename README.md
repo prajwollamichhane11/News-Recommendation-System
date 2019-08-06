@@ -6,7 +6,8 @@
   <a href="http://prajwollamichhane.com.np/"><li>Prajwol Lamichhane</li></a>
   <a href="https://github.com/anukulu"><li>Anukul Parajuli</li></a>
   <a href="https://github.com/abhayraut712"><li>Abhay Raut</li></a>
-  <li>Subarna Subedi</li>
+  <a href="#"><li>Subarna Subedi</li></a>
+<br>
 <h>Special thanks to:</h>
   <a href="https://gitlab.com/bhattaraishan271"><li>Shantanu Bhattarai</li></a>
 
