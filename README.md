@@ -2,11 +2,13 @@
 
 <p align="justify">News are newly received notable information concerning place or group or things. Everyone is concerned with the news on their own way. But it is hard to categorize the interest of news readers with one another. A recommendation system would be great idea to make a news reader familiar with only those contents he/she want to know about. So, we are developing a real news recommendation system where we recommend the only news readers the true news of their interests. Plus there is a separate section for the Fake News Detection where when are news are given input, they can be validated as true or false. We are doing this because in the real-life scenario people face problem reading the news article of their choice and we aim to solve this problem. The output of this work can be implemented in various online news portals.</p>
 
-<h>This Project is the combined work of following Members.</h>
+<h>This project is the combined work of following members:</h>
   <a href="http://prajwollamichhane.com.np/"><li>Prajwol Lamichhane</li></a>
   <a href="https://github.com/anukulu"><li>Anukul Parajuli</li></a>
   <a href="https://github.com/abhayraut712"><li>Abhay Raut</li></a>
   <li>Subarna Subedi</li>
+<h>Special thanks to:</h>
+  <a href="https://gitlab.com/bhattaraishan271"><li>Shantanu Bhattarai</li></a>
 
 <br>
 
